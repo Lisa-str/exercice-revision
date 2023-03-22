@@ -1,0 +1,41 @@
+.box-javascript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: #e1c5ba;
+  color: #341f37;
+  border: 1px solid #341f37;
+  display: inline-block;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+#javascript-01 {
+  .black-javascript-box {
+    background-color: #341f37;
+    color: #e1c5ba;
+  }
+}
+
+#javascript-02 {
+  .black-javascript-box {
+    background-color: #341f37;
+    color: #e1c5ba;
+  }
+}
+
+#javascript-03 {
+  .box-javascript-3C {
+    display: none;
+  }
+
+  .invisible-box {
+    display: none;
+  }
+
+  .visible-box {
+    display: inline-block;
+  }
+}
