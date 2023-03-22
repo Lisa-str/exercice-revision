@@ -1,0 +1,29 @@
+.box {
+  background-color: #ffb602;
+  border: 1px solid;
+  padding: 20px 40px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#flexbox-02 {
+  .wrapper {
+    justify-content: space-between;
+  }
+}
+
+#flexbox-05 {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+#flexbox-06 {
+  .wrapper {
+    justify-content: space-around;
+    padding: 108px 10px;
+  }
+}
