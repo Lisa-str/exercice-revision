@@ -14,6 +14,21 @@
   }
 }
 
+#flexbox-03 {
+  .box {
+    flex-grow: 1;
+  }
+}
+
+#flexbox-04 {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 50%;
+  }
+}
+
 #flexbox-05 {
   .wrapper {
     flex-direction: column;
