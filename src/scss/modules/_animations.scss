@@ -2,11 +2,51 @@
   background-color: #ef9f25;
   height: 100px;
   width: 100px;
+  animation: Rotating 1.5s infinite linear;
+  margin: 20px;
+}
+
+@keyframes Rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
 }
 
 .animation-box-2 {
   background-color: #ef9f25;
   height: 100px;
   width: 100px;
-  animation: #231601;
+  animation: Animation 5s infinite linear;
+  margin: 30px;
+}
+
+@keyframes Animation {
+  0% {
+    transform: translate(0, 0);
+    background-color: #ef9f25;
+  }
+
+  20% {
+    transform: translate(100px, 0);
+    background-color: #231601;
+  }
+
+  40% {
+    transform: translate(0, 0);
+    background-color: #ef9f25;
+  }
+
+  80% {
+    transform: translate(0, 50px);
+    background-color: #231601;
+  }
+
+  100% {
+    left: 0;
+    transform: translate(0, 0);
+    background-color: #ef9f25;
+  }
 }
